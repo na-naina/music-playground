@@ -1,0 +1,40 @@
+.midi-player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    background-color: var(--secondary-bg-color);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 600px;
+}
+
+.visualizer-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.visualizer {
+    width: 100%;
+    height: auto;
+    background-color: var(--tertiary-bg-color);
+    border: 1px solid var(--highlight-color);
+    border-radius: 5px;
+}
+
+button {
+    background-color: var(--highlight-color);
+    color: var(--primary-color);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: var(--highlight-hover-color);
+}

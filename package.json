@@ -3,12 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@magenta/music": "1.20.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@wavesurfer/react": "^1.0.5",
+    "audio-editor": "^0.0.0",
+    "axios": "^1.6.8",
+    "buffer": "^6.0.3",
+    "magenta": "^0.0.0",
     "react": "^18.3.0",
     "react-dom": "^18.3.0",
+    "react-router-dom": "^6.23.0",
     "react-scripts": "5.0.1",
+    "wavesurfer.js": "^7.7.11",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +42,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "proxy": "http://localhost:5000"
 }
